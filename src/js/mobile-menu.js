@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const burgerIcon = document.getElementById('open-menu');
     const menu = document.getElementById('menu-backdrop');
     const closeButton = document.getElementById('close-menu');
+    const backdrop = document.getElementById('menu-backdrop');
     const body = document.body;
     let initialScrollPosition = 0; 
     let isClickable = true; 
@@ -60,6 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     burgerIcon.addEventListener('click', openMenu);
     closeButton.addEventListener('click', closeMenu);
+    backdrop.addEventListener('click', closeMenu);
 
 
 
