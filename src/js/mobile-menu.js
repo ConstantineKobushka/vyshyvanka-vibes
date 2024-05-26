@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 document.addEventListener('DOMContentLoaded', function () {
 
     const burgerIcon = document.getElementById('open-menu');
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
-=======
+
 (() => {
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
@@ -124,4 +124,4 @@ document.addEventListener('DOMContentLoaded', function () {
     bodyScrollLock.enableBodyScroll(document.body);
   });
 })();
->>>>>>> Stashed changes
+
