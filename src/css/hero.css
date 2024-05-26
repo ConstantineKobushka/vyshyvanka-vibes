@@ -51,32 +51,30 @@
     font-size: 16px;
     letter-spacing: -0.64px;
 }
-
+.img-box{
+    max-width: 392px;
+    margin: 0;
+}
 @media only screen and (min-width: 768px) {
     .hero {
         padding: 100px 0;
     }
-
     .hero-box {
         display: flex;
         flex-wrap: wrap;
     }
-
     .hero-main {
         max-width: 578px;
     }
-
     .hero-btn {
         font-size: 16px;
         letter-spacing: -0.64px;
     }
-
     .hero-title {
         font-size: 54px;
         line-height: 64px;
         letter-spacing: -1.62px;
     }
-
     .hero-star-box {
         display: inline-flex;
         flex-direction: column;
@@ -88,18 +86,16 @@
         margin-top: 16px;
     }
 }
-
 .star {
-    animation: rotate 4s ease-in-out infinite;
+    animation: rotate 5s ease-in-out infinite;
     transform-origin: center;
 }
-
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
     }
-    100% {
-        transform: rotate(360deg);
+    50% {
+        transform: rotate(180deg);
     }
 }
 @media only screen and (min-width: 1280px) {
@@ -119,7 +115,7 @@
     .hero-star-box {
         margin-top: 14px;
     }
-    .hero-img-box {
+    .img-box {
         order: -1;
     }
 }
