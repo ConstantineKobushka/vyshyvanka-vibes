@@ -1,0 +1,57 @@
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px 40px;
+    align-items: flex-start;
+    margin-right: 55px;
+    width: 280px;
+    height: 61px;
+}
+
+.footer-menu-item {
+    font-size: 14px;
+    text-wrap: nowrap;
+    width: 116px;
+}
+
+.footer-menu-link {
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.footer-menu-item {
+    list-style: none;
+
+}
+
+.slogan {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    color: #FCF9F9;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -1.32px;
+}
+
+.span-slogan {
+    color: #ECD979;
+}
+
+.section-footer {
+    background-image: url('../ornament.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom -160px;
+    padding: 40px 0 280px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
