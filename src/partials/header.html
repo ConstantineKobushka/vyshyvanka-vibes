@@ -1,1 +1,88 @@
 
+    <header class="header" id="header">
+        <div class="header__navbar container">
+            <nav class="header__navigation">
+                <a class="header__logo-link" href="./index.html">
+                    <img class="header__logo" src="../images/icons/logo@2x.png" alt="logotype icon" width="44"
+                        height="39" />
+                </a>
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#about-us">about us</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#collection">our collection</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#order">customer order</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#testimonials">testimonials</a>
+                    </li>
+                </ul>
+            </nav>
+            <address class="header__address">
+                <a class="header__contact-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+            </address>
+            <ul class="header__social-list">
+                <li class="header__social-list-item">
+                    <a class="header__social-link" href="https://www.facebook.com/goITclub/" target="_blank">
+                        <svg class="header__social-icon" width="28" height="28" aria-label="facebook icon">
+                            <use href="../images/icons/icons.svg#facebook-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header__social-list-item">
+                    <a class="header__social-link" href="https://www.instagram.com/goitclub/" target="_blank">
+                        <svg class="header__social-icon" width="28" height="28" aria-label="instagram icon">
+                            <use href="../images/icons/icons.svg#instagram-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header__social-list-item">
+                    <a class="header__social-link" href="https://www.youtube.com/c/GoIT" target="_blank">
+                        <svg class="header__social-icon" width="28" height="28" aria-label="youtube icon">
+                            <use href="../images/icons/icons.svg#youtube-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <div class="header__mobile-menu">
+                <button class="header__mobile-menu-btn" id="open-menu" type="button" data-modal-open>
+                    <svg class="header__mobile-menu-icon" width="38" height="18" aria-label="mobile menu open icon">
+                        <use href="../images/icons/icons.svg#nav-btn-icon"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <div id="menu-backdrop" class="menu-backdrop">
+        <div class="container menu-container">
+            <button id="close-menu" type="button" class="close-menu-button">
+                <svg class="close-menu-icon">
+                    <use href="../images/icons/icons.svg#close-icon"></use>
+                </svg>
+            </button>
+            <div class="menu-elements-cont">
+                <a class="menu-phone uppercase" href="tel:+380684439426">+380 (68) 443-94-26</a>
+                <ul class="menu-nav-list">
+                    <li class="menu-nav-item">
+                        <a class="menu-nav-link" href="#about-us">about us</a>
+                    </li>
+                    <li class="menu-nav-item">
+                        <a class="menu-nav-link" href="#our-collection">our collection</a>
+                    </li>
+                    <li class="menu-nav-item">
+                        <a class="menu-nav-link" href="#your-order">customer order</a>
+                    </li>
+                    <li class="menu-nav-item">
+                        <a class="menu-nav-link" href="#testimonials">testimonials</a>
+                    </li>
+                </ul>
+                <div class="menu-ornament-cont"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/mobile-menu.js"></script>
