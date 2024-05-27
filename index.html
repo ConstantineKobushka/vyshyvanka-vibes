@@ -30,94 +30,140 @@
     <link rel="stylesheet" href="/vyshyvanka-vibes/assets/index-96154751.css">
   </head>
   <body>
-    
     <header class="header" id="header">
-        <div class="header__navbar container">
-            <nav class="header__navigation">
-                <a class="header__logo-link" href="./index.html">
-                    <img class="header__logo" src="../images/icons/logo@2x.png" alt="logotype icon" width="44"
-                        height="39" />
-                </a>
-                <ul class="header__menu">
-                    <li class="header__menu-item">
-                        <a class="header__menu-link" href="#about-us">about us</a>
-                    </li>
-                    <li class="header__menu-item">
-                        <a class="header__menu-link" href="#collection">our collection</a>
-                    </li>
-                    <li class="header__menu-item">
-                        <a class="header__menu-link" href="#order">customer order</a>
-                    </li>
-                    <li class="header__menu-item">
-                        <a class="header__menu-link" href="#testimonials">testimonials</a>
-                    </li>
-                </ul>
-            </nav>
-            <address class="header__address">
-                <a class="header__contact-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
-            </address>
-            <ul class="header__social-list">
-                <li class="header__social-list-item">
-                    <a class="header__social-link" href="https://www.facebook.com/goITclub/" target="_blank">
-                        <svg class="header__social-icon" width="28" height="28" aria-label="facebook icon">
-                            <use href="../images/icons/icons.svg#facebook-icon"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="header__social-list-item">
-                    <a class="header__social-link" href="https://www.instagram.com/goitclub/" target="_blank">
-                        <svg class="header__social-icon" width="28" height="28" aria-label="instagram icon">
-                            <use href="../images/icons/icons.svg#instagram-icon"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="header__social-list-item">
-                    <a class="header__social-link" href="https://www.youtube.com/c/GoIT" target="_blank">
-                        <svg class="header__social-icon" width="28" height="28" aria-label="youtube icon">
-                            <use href="../images/icons/icons.svg#youtube-icon"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            <div class="header__mobile-menu">
-                <button class="header__mobile-menu-btn" id="open-menu" type="button" data-modal-open>
-                    <svg class="header__mobile-menu-icon" width="38" height="18" aria-label="mobile menu open icon">
-                        <use href="../images/icons/icons.svg#nav-btn-icon"></use>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </header>
-    
-    <div id="menu-backdrop" class="menu-backdrop">
-        <div class="container menu-container">
-            <button id="close-menu" type="button" class="close-menu-button">
-                <svg class="close-menu-icon">
-                    <use href="../images/icons/icons.svg#close-icon"></use>
-                </svg>
-            </button>
-            <div class="menu-elements-cont">
-                <a class="menu-phone uppercase" href="tel:+380684439426">+380 (68) 443-94-26</a>
-                <ul class="menu-nav-list">
-                    <li class="menu-nav-item">
-                        <a class="menu-nav-link" href="#about-us">about us</a>
-                    </li>
-                    <li class="menu-nav-item">
-                        <a class="menu-nav-link" href="#our-collection">our collection</a>
-                    </li>
-                    <li class="menu-nav-item">
-                        <a class="menu-nav-link" href="#your-order">customer order</a>
-                    </li>
-                    <li class="menu-nav-item">
-                        <a class="menu-nav-link" href="#testimonials">testimonials</a>
-                    </li>
-                </ul>
-                <div class="menu-ornament-cont"></div>
-            </div>
-        </div>
+  <div class="header__navbar container">
+    <nav class="header__navigation">
+      <a class="header__logo-link" href="/index.html">
+        <img
+          class="header__logo"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABOCAMAAACTxCGAAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAB7UExURUdwTOzaeezYeO3YeOvXd+3ZeezYeOvXd+fXd+zXeOzaeuzZeerXeO/PcOzZeevZeerYeOzZeeraet/PcOzZeeraderXeOzZeevYeO3aeu/fgOnZee/Xd+3aeevZeezYe+/aeu3ZeOrYeevaeerZee3YeevZeenXd+zZeZ1tZJsAAAAodFJOUwC/n9+A379AIGCf76AQr9+QzzAQXzBgUJBvEFAgj89PMH9wj6BwgIA5tNkiAAADrElEQVRYw91Z63rbIAwFzN2xc2subdN2a3fJ+z/hsEA2ENylXZyvmX7ZWDo2SIgjmRyPkgQ5BlEklkgBhGcKGs10GJh1N4JMBizlAm43SsHjuZSbDHip1CHcNErZHFjKJVi+KD/+W8raAaPQ8F5OMklGVWFKhJhg26OJyYG/GQPTmTP2WARujWkcgPleBFaMzbvx2hj/aM+eeoeASHIqkUvL3h085oSR3NMTAK+sfYZBY3Y4ZoPobv77BNitih4UGlwNY2pYTGv71yr8kPJnRh6L/JgHL3jMi5kYWAg/8KJ1HPXah1AtBNwtArDUek1IG2xeMxuFNpqMOySdB0fgJOZNZpPsbv+SqsqBV1VVeyXtHHQPClXVul2tNQ02Lzlwb5NvrHOC8L3QxE04MXAt5baotJVeFmeMouyknCNw+dWfl9nEwJzfDWMHzlVRWXGuM904gjiPDocd5w05Dd5RP6rx2ZnTkL4i8JzSTT5TSucBuKY0X40HePp34NHdrUZiXhd393WBCxl09DAVI/noWsB9ShtyrIY8dp8omCEPi5FEN5Z5ErYh31EQhaP5GsCOsIC4xXtkrA52nsYwlsaBV0BqIo41Y3dwSiPCeI6lw3mU+rEwDyRTZxGWCwKvjPHky9pHmBbSGG5KceQUQNfNe9eRHGVtxt3s0yjbVGNkKopu8xka+8/AQvhlWWuNdGMTaMwC2AlKK0TOaICaaCH8plJh27x1tmM1SCHd0MyPKpzHHytuLgI8yivOJhPFqmFC4J6wqCBNuDwkLMV5KGEpTaLrL5Gw3KbzkIRsuV9HGqjJD7zsV4PHLwKFtqMmD5y3YLnnr0hY6il33rTAd5TCtnTluJv8glLHQ5Ryi7XsLk/EKYCu2/CWOpKvlYLVcHSGh/ha3Wqid6nNiytjIFnhqDvzMP2heAUdUlmXyMRiQFhf+fhvoFSM7GZV5dwEFVmkUFVVAtwOCv8Nd/N2LYsXjTGadFieGYuY+Z61X4AfXwbY2tcEwjdQ0irDmDYAL41ZnT6dJcBb33dJwvQiVVOpMr0scFRiPUB2Q3E5D+QJ8tc6JK1otF9meOo/DfLkrfYrpuwJTQGM3d+fKoZW6h5Gl1JGTWNsJS+khKe/AkshoQNtsAPd3GSnkJADY9g0VUNK87JJmsZRKxkVTpqmjKnJ27xTAqflWLmVnraS09D8SDn2df8qlMux9M9NxEOwlRxttw+VYxf4JQQ9YS9VkBQ4UvAUK1PQaIbAb92N/AOLqCj/S9x2WAAAAABJRU5ErkJggg=="
+          alt="logotype icon"
+          width="44"
+          height="39"
+        />
+      </a>
+      <ul class="header__menu">
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#about-us">about us</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#collection">our collection</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#order">customer order</a>
+        </li>
+        <li class="header__menu-item">
+          <a class="header__menu-link" href="#testimonials">testimonials</a>
+        </li>
+      </ul>
+    </nav>
+    <address class="header__address">
+      <a class="header__contact-link" href="tel:+380684439426"
+        >+380 (68) 443-94-26</a
+      >
+    </address>
+    <ul class="header__social-list">
+      <li class="header__social-list-item">
+        <a
+          class="header__social-link"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+        >
+          <svg
+            class="header__social-icon"
+            width="28"
+            height="28"
+            aria-label="facebook icon"
+          >
+            <use href="/vyshyvanka-vibes/assets/icons-74b116dc.svg#facebook-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header__social-list-item">
+        <a
+          class="header__social-link"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+        >
+          <svg
+            class="header__social-icon"
+            width="28"
+            height="28"
+            aria-label="instagram icon"
+          >
+            <use href="/vyshyvanka-vibes/assets/icons-74b116dc.svg#instagram-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header__social-list-item">
+        <a
+          class="header__social-link"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+        >
+          <svg
+            class="header__social-icon"
+            width="28"
+            height="28"
+            aria-label="youtube icon"
+          >
+            <use href="/vyshyvanka-vibes/assets/icons-74b116dc.svg#youtube-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <div class="header__mobile-menu">
+      <button
+        class="header__mobile-menu-btn"
+        id="open-menu"
+        type="button"
+        data-modal-open
+      >
+        <svg
+          class="header__mobile-menu-icon"
+          width="38"
+          height="18"
+          aria-label="mobile menu open icon"
+        >
+          <use href="/vyshyvanka-vibes/assets/icons-74b116dc.svg#nav-btn-icon"></use>
+        </svg>
+      </button>
     </div>
-    
-    <script src="../js/mobile-menu.js"></script>
+  </div>
+</header>
+
+<div id="menu-backdrop" class="menu-backdrop">
+  <div class="container menu-container">
+    <button id="close-menu" type="button" class="close-menu-button">
+      <svg class="close-menu-icon">
+        <use href="/vyshyvanka-vibes/assets/icons-74b116dc.svg#close-icon"></use>
+      </svg>
+    </button>
+    <div class="menu-elements-cont">
+      <a class="menu-phone uppercase" href="tel:+380684439426"
+        >+380 (68) 443-94-26</a
+      >
+      <ul class="menu-nav-list">
+        <li class="menu-nav-item">
+          <a class="menu-nav-link" href="#about-us">about us</a>
+        </li>
+        <li class="menu-nav-item">
+          <a class="menu-nav-link" href="#our-collection">our collection</a>
+        </li>
+        <li class="menu-nav-item">
+          <a class="menu-nav-link" href="#your-order">customer order</a>
+        </li>
+        <li class="menu-nav-item">
+          <a class="menu-nav-link" href="#testimonials">testimonials</a>
+        </li>
+      </ul>
+      <div class="menu-ornament-cont"></div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/mobile-menu.js"></script>
+
 
     <main>
       
