@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.order-swiper', {
   loop: true,
   mousewheel: true,
   effect: 'cube',
