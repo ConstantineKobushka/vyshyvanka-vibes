@@ -37,6 +37,11 @@
   height: auto;
 }
 
+.about-us-swiper {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
 @media (min-resolution: 192dpi) and (min-width: 320px) {
   .about-us {
     background-image: url("../images/background/gray-ornament@2x.png");
