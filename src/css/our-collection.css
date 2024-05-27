@@ -23,12 +23,12 @@
 
 .item-cards-collection {
   position: relative;
-  transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-cards-collection .item-cards-collection:hover,
 .list-cards-collection .item-cards-collection:focus {
-  border-bottom: 1px solid #ecd979;
+  transform: scale(0.95);
 }
 
 .container-image-cards-collection {
@@ -122,14 +122,14 @@
     background-position: top 296px left;
   }
 
-  .list-swiper-collection .item-swiper-collection:hover,
-  .list-swiper-collection .item-swiper-collection:focus {
-    border-bottom: 1px solid #ecd979;
-  }
-
   .item-swiper-collection {
     position: relative;
-    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .list-swiper-collection .item-swiper-collection:hover,
+  .list-swiper-collection .item-swiper-collection:focus {
+    transform: scale(0.95);
   }
 
   .item-swiper-collection:not(:last-child) {
