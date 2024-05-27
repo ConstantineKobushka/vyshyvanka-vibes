@@ -39,7 +39,7 @@
 }
 
 .title-cards-collection {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
@@ -58,7 +58,11 @@
   margin-bottom: 0;
 }
 
-@media (min-resolution: 192dpi) {
+.container-swiper-collection {
+  display: none;
+}
+
+@media (min-resolution: 192dpi) and (min-resolution: 192dpi) {
   .container-collection {
     background-image: url(../images/background/yellow-ornament@2x.png);
   }
@@ -112,6 +116,7 @@
 @media screen and (min-width: 1280px) {
   .container-collection {
     background-position: top 221px left -169px;
+    display: none;
   }
 
   .list-cards-collection {
@@ -121,14 +126,18 @@
   .item-cards-collection {
     max-width: 380px;
   }
+
+  .container-swiper-collection {
+    display: block;
+  }
 }
 
 /*  ==================== ADAPTIVE 1440px ====================  */
-@media screen and (max-width: 1439px) {
+/* @media screen and (max-width: 1439px) {
   .container-swiper-collection {
-    display: none;
+    display: block;
   }
-}
+} */
 
 @media screen and (min-width: 1440px) {
   .container-collection {
