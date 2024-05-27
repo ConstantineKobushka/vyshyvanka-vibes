@@ -1,8 +1,8 @@
 const swiper = new Swiper('.order-swiper', {
   loop: true,
   mousewheel: true,
-  effect: 'cube',
   grabCursor: true,
+  effect: 'cube',
   cubeEffect: {
     shadow: false,
     slideShadows: true,

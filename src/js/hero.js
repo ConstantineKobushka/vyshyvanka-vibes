@@ -1,6 +1,6 @@
 const swiper = new Swiper('.hero-swiper', {
   loop: true,
-  mousewheel: true,
+  mousewheel: false,
   grabCursor: true,
   effect: 'cube',
   cubeEffect: {
@@ -12,5 +12,6 @@ const swiper = new Swiper('.hero-swiper', {
   autoplay: {
     delay: 2500,
     disableOnInteraction: true,
+    pauseOnMouseEnter: true,
   },
 });

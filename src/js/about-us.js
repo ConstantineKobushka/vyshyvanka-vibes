@@ -1,6 +1,6 @@
 const swiper = new Swiper('.about-us-swiper', {
   loop: true,
-  mousewheel: true,
+  mousewheel: false,
   grabCursor: true,
   effect: 'cube',
   cubeEffect: {
