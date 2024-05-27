@@ -52,8 +52,9 @@
 .hero-swiper {
   max-width: 392px;
   margin: 0;
+  border-radius: 4px;
+  overflow: hidden;
 }
-
 @media only screen and (min-width: 768px) {
   .hero {
     padding: 100px 0;
