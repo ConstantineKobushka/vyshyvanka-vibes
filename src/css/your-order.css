@@ -205,6 +205,8 @@
 
 @media screen and (min-width: 1440px) {
   .your-order {
+    max-width: 1440px;
+    margin: 0 auto;
     background-position: bottom 75px left -219px;
   }
   .order-bg {
