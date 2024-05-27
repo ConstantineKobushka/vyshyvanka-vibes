@@ -55,8 +55,96 @@
     position: relative;
 }
 
-@media (min-resolution: 192dpi) and (min-width: 320px) {
+/* @media (min-resolution: 192dpi) and (min-width: 320px) {
     .about-us {
         background-image: url("../images/background/yellow-ornament@2x.png");
+    }
+} */
+
+@media (min-resolution: 192dpi) {
+    .container-footer {
+        background-image: url("../images/background/yellow-ornament@2x.png");
+    }
+}
+
+/* Футер перехід на таблет 768 */
+
+@media screen and (min-width: 768px) {
+
+    .section-footer {
+        max-width: 768px;
+        height: 370px;
+        border-top: 1px solid rgba(252, 249, 249, 0.1);
+        background-position: right -278px bottom -17px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .footer-menu {
+        flex-wrap: nowrap;
+        margin-top: 40px;
+        gap: 25px;
+        width: 478px;
+        height: 18px;
+    }
+
+    .footer-menu-link {
+        line-height: 1.28571;
+    }
+
+    .slogan {
+        font-weight: 400;
+        font-size: 54px;
+        width: 521px;
+        height: 192px;
+        line-height: 1.18519;
+        letter-spacing: -0.03em;
+        margin-right: 215px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+}
+
+/* Футер перехід на десктоп 1280 */
+
+@media screen and (min-width: 1280px) {
+
+    .section-footer {
+        max-width: 1280px;
+        height: 363px;
+        background-size: 595px 528px;
+        background-position: right -259px bottom -104px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .container-footer {
+        padding: 0 50px;
+    }
+
+    .slogan {
+        font-size: 64px;
+        width: 754px;
+        height: 148px;
+        line-height: 1.15625;
+        margin-right: 426px;
+        margin-top: 117px;
+    }
+}
+
+/* Футер перехід на десктоп 1440 */
+
+@media screen and (min-width: 1440px) {
+
+    .section-footer {
+        max-width: 1440px;
+        background-position: right -99px bottom -104px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .slogan {
+        margin-right: 486px;
     }
 }
