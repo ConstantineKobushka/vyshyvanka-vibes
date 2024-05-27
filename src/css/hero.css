@@ -15,7 +15,7 @@
 .ukrainian {
   color: #ecd979;
 }
-.hero-btn {
+.hero-btn-link {
   display: flex;
   width: 154px;
   height: 49px;
@@ -111,11 +111,11 @@
     margin-left: 40px;
     max-width: 572px;
   }
-  .hero-btn:hover,
-  .hero-btn:focus {
+  .hero-btn-link:hover,
+  .hero-btn-link:focus {
     border-color: #ecd979;
   }
-  .hero-btn:hover .hero-btn-arrow {
+  .hero-btn-link:hover .hero-btn-arrow {
     transform: rotate(60deg);
   }
   .hero-star-box {
