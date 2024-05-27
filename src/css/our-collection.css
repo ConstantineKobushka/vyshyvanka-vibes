@@ -1,8 +1,8 @@
-.container-collection {
+.collection {
   background-image: url(../images/background/yellow-ornament@1x.png);
   background-repeat: no-repeat;
   background-size: 199px 177px;
-  background-position: top 298px left -127px;
+  background-position: top 338px left;
 }
 
 .title-our-collection {
@@ -12,7 +12,6 @@
   letter-spacing: -0.03em;
   color: #fcf9f9;
   text-align: center;
-  margin-top: 0;
   margin-bottom: 40px;
 }
 
@@ -22,12 +21,22 @@
   row-gap: 20px;
 }
 
-.container-image-cards-collection {
+.item-cards-collection {
   position: relative;
+  transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-cards-collection .item-cards-collection:hover,
+.list-cards-collection .item-cards-collection:focus {
+  border-bottom: 1px solid #ecd979;
+}
+
+.container-image-cards-collection {
   display: flex;
   justify-content: center;
   overflow: hidden;
   margin-bottom: 18px;
+  border-radius: 4px;
 }
 
 .link-item-cards-collection {
@@ -39,15 +48,16 @@
 }
 
 .title-cards-collection {
-  font-family: "Manrope", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #fcf9f9;
-  margin-top: 0;
   margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .description-cards-collection {
@@ -58,29 +68,17 @@
   margin-bottom: 0;
 }
 
-.container-swiper-collection {
-  display: none;
-}
-
-@media (min-resolution: 192dpi) and (min-resolution: 192dpi) {
-  .container-collection {
+@media (min-resolution: 192dpi) {
+  .collection {
     background-image: url(../images/background/yellow-ornament@2x.png);
   }
 }
 
 /*  ==================== ADAPTIVE 768px ====================  */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .title-cards-collection {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-}
-
 @media screen and (min-width: 768px) {
-  .container-collection {
+  .collection {
     background-size: 338px 300px;
-    background-position: top 221px left -224px;
+    background-position: top 271px left;
   }
 
   .title-our-collection {
@@ -99,10 +97,6 @@
     max-width: 342px;
   }
 
-  .container-image-cards-collection {
-    overflow: visible;
-  }
-
   .title-cards-collection {
     font-size: 18px;
   }
@@ -113,45 +107,52 @@
 }
 
 /*  ==================== ADAPTIVE 1280px ====================  */
+@media screen and (max-width: 1279px) {
+  .container-swiper-collection {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .container-collection {
-    background-position: top 221px left -169px;
     display: none;
   }
 
-  .list-cards-collection {
-    row-gap: 40px;
+  .collection {
+    background-position: top 296px left;
   }
 
-  .item-cards-collection {
-    max-width: 380px;
+  .list-swiper-collection .item-swiper-collection:hover,
+  .list-swiper-collection .item-swiper-collection:focus {
+    border-bottom: 1px solid #ecd979;
   }
 
-  .container-swiper-collection {
-    display: block;
+  .item-swiper-collection {
+    position: relative;
+    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .item-swiper-collection:not(:last-child) {
+    margin-bottom: 40px;
   }
 }
 
 /*  ==================== ADAPTIVE 1440px ====================  */
-/* @media screen and (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .container-swiper-collection {
-    display: block;
+    background-image: none;
   }
-} */
+}
 
 @media screen and (min-width: 1440px) {
-  .container-collection {
-    display: none;
+  .collection {
+    background-image: none;
   }
 
   .container-swiper-collection {
     background-image: url(../images/background/yellow-ornament@1x.png);
     background-repeat: no-repeat;
     background-size: 338px 300px;
-    background-position: top 231px left -169px;
-  }
-
-  .item-swiper-collection:not(:last-child) {
-    margin-bottom: 40px;
+    background-position: top 231px left;
   }
 }
