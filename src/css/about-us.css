@@ -1,7 +1,8 @@
 .about-us {
   background-image: url("../images/background/gray-ornament@1x.png");
   background-repeat: no-repeat;
-  background-position: left 150px bottom;
+  background-position: right -209px bottom -10px;
+  background-size: 459px 408px;
 }
 .about-us-inner {
   display: flex;
@@ -44,7 +45,8 @@
 
 @media only screen and (min-width: 375px) {
   .about-us {
-    background-position: left 80px bottom;
+    background-position: right -209px bottom -10px;
+    background-size: 459px 408px;
   }
   .about-us-box-img {
     max-width: 335px;
@@ -54,6 +56,7 @@
 @media only screen and (min-width: 768px) {
   .about-us {
     background-position: left 395px bottom;
+    background-size: 545px 484px;
   }
   .about-us-inner {
     gap: 40px;

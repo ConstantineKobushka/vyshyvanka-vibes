@@ -1,0 +1,157 @@
+.container-collection {
+  background-image: url(../images/background/yellow-ornament@1x.png);
+  background-repeat: no-repeat;
+  background-size: 199px 177px;
+  background-position: top 298px left -127px;
+}
+
+.title-our-collection {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.list-cards-collection {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.container-image-cards-collection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.link-item-cards-collection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title-cards-collection {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.description-cards-collection {
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container-swiper-collection {
+  display: none;
+}
+
+@media (min-resolution: 192dpi) and (min-resolution: 192dpi) {
+  .container-collection {
+    background-image: url(../images/background/yellow-ornament@2x.png);
+  }
+}
+
+/*  ==================== ADAPTIVE 768px ====================  */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .title-cards-collection {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-collection {
+    background-size: 338px 300px;
+    background-position: top 221px left -224px;
+  }
+
+  .title-our-collection {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+
+  .list-cards-collection {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .item-cards-collection {
+    max-width: 342px;
+  }
+
+  .container-image-cards-collection {
+    overflow: visible;
+  }
+
+  .title-cards-collection {
+    font-size: 18px;
+  }
+
+  .description-cards-collection {
+    font-size: 18px;
+  }
+}
+
+/*  ==================== ADAPTIVE 1280px ====================  */
+@media screen and (min-width: 1280px) {
+  .container-collection {
+    background-position: top 221px left -169px;
+    display: none;
+  }
+
+  .list-cards-collection {
+    row-gap: 40px;
+  }
+
+  .item-cards-collection {
+    max-width: 380px;
+  }
+
+  .container-swiper-collection {
+    display: block;
+  }
+}
+
+/*  ==================== ADAPTIVE 1440px ====================  */
+/* @media screen and (max-width: 1439px) {
+  .container-swiper-collection {
+    display: block;
+  }
+} */
+
+@media screen and (min-width: 1440px) {
+  .container-collection {
+    display: none;
+  }
+
+  .container-swiper-collection {
+    background-image: url(../images/background/yellow-ornament@1x.png);
+    background-repeat: no-repeat;
+    background-size: 338px 300px;
+    background-position: top 231px left -169px;
+  }
+
+  .item-swiper-collection:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}

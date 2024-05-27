@@ -1,0 +1,72 @@
+<section class="your-order section">
+  <div class="container">
+    <div class="order-bg"></div>
+
+
+    <div class="your-order-wrapper">
+
+      <div class="order-form-wrapper" id="your-order">
+        <h2 class="order-title">
+          <span class="color-text">Your order</span> is our priority: Personalized approach and quality of
+          service
+        </h2>
+
+        <form class="order-form">
+          <input class="order-input" type="text" name="user-name" placeholder="Enter your full name" required
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']">
+          <input class="order-input" type="email" name="user-email" placeholder="Enter your email" required>
+          <textarea class="order-comment" name="user-comment" placeholder="Comments"></textarea>
+          <button class="order-send-btn" type="submit">
+            Send
+            <svg class="order-btn-icon" width="26" height="26">
+              <use href="../images/icons/icons.svg#arrow-icon"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="order-img-container">
+        <div class="swiper order-swiper">
+          <div class="swiper-wrapper order-swiper-wrapper">
+            <div class="swiper-slide order-swiper-slide">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="
+                /images/your-order/order-image-1-desktopmax@1x.jpg 1x,
+                /images/your-order/order-image-1-desktopmax@2x.jpg 2x" type="image/jpg" />
+
+                <source media="(min-width: 1280px)" srcset="
+                /images/your-order/order-image-1-desktop@1x.jpg 1x,
+                /images/your-order/order-image-1-desktop@2x.jpg 2x" type="image/jpg" />
+
+                <source media="(min-width: 768px)" srcset="
+                /images/your-order/order-image-1-tablet@2x.jpg 2x" type="image/jpg" />
+
+                <img class="order-img" src="/images/your-order/order-image-1-tablet@1x.jpg" alt="Vyshyvanka1"
+                  width="704" height="521" loading="lazy" />
+              </picture>
+            </div>
+
+            <div class="swiper-slide order-swiper-slide">
+              <picture>
+                <source media="(min-width: 1440px)" srcset="
+                /images/your-order/order-image-2-desktopmax@1x.jpg 1x,
+                /images/your-order/order-image-2-desktopmax@2x.jpg 2x" type="image/jpg" />
+
+                <source media="(min-width: 1280px)" srcset="
+                /images/your-order/order-image-2-desktop@1x.jpg 1x,
+                /images/your-order/order-image-2-desktop@2x.jpg 2x" type="image/jpg" />
+
+                <source media="(min-width: 768px)" srcset="
+                /images/your-order/order-image-2-tablet@2x.jpg 2x" type="image/jpg" />
+
+                <img class="order-img" src="/images/your-order/order-image-2-tablet@1x.jpg" alt="Vyshyvanka2"
+                  width="704" height="521" loading="lazy" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
