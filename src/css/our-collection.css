@@ -12,7 +12,6 @@
   letter-spacing: -0.03em;
   color: #fcf9f9;
   text-align: center;
-  margin-top: 0;
   margin-bottom: 40px;
 }
 
@@ -39,15 +38,16 @@
 }
 
 .title-cards-collection {
-  font-family: 'Manrope', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #fcf9f9;
-  margin-top: 0;
   margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .description-cards-collection {
@@ -65,14 +65,6 @@
 }
 
 /*  ==================== ADAPTIVE 768px ====================  */
-@media screen and (min-width: 768px) and (max-width: 1279px) {
-  .title-cards-collection {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .container-collection {
     background-size: 338px 300px;
@@ -95,10 +87,6 @@
     max-width: 342px;
   }
 
-  .container-image-cards-collection {
-    overflow: visible;
-  }
-
   .title-cards-collection {
     font-size: 18px;
   }
@@ -109,28 +97,13 @@
 }
 
 /*  ==================== ADAPTIVE 1280px ====================  */
-@media screen and (min-width: 1280px) {
-  .container-collection {
-    background-position: top 221px left -169px;
-  }
-
-  .list-cards-collection {
-    row-gap: 40px;
-  }
-
-  .item-cards-collection {
-    max-width: 380px;
-  }
-}
-
-/*  ==================== ADAPTIVE 1440px ====================  */
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1279px) {
   .container-swiper-collection {
     display: none;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container-collection {
     display: none;
   }
@@ -139,10 +112,17 @@
     background-image: url(../images/background/yellow-ornament@1x.png);
     background-repeat: no-repeat;
     background-size: 338px 300px;
-    background-position: top 231px left -169px;
+    background-position: top 221px left -169px;
   }
 
   .item-swiper-collection:not(:last-child) {
     margin-bottom: 40px;
+  }
+}
+
+/*  ==================== ADAPTIVE 1440px ====================  */
+@media screen and (min-width: 1440px) {
+  .container-swiper-collection {
+    background-position: top 231px left -169px;
   }
 }

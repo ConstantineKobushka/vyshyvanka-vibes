@@ -6,5 +6,5 @@ new Swiper('.swiper-collecion', {
     disableOnInteraction: false,
   },
   loop: true,
-  speed: 1000,
+  speed: 1500,
 });
