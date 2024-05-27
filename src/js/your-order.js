@@ -12,5 +12,6 @@ const swiper = new Swiper('.order-swiper', {
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
+    pauseOnMouseEnter: true,
   },
 });
