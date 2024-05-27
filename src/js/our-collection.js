@@ -1,4 +1,4 @@
-new Swiper('.swiper-collecion', {
+new Swiper('.swiper-collection', {
   spaceBetween: 20,
   slidesPerView: 3,
   autoplay: {
