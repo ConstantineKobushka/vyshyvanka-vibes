@@ -12,5 +12,6 @@ const swiper = new Swiper('.about-us-swiper', {
   autoplay: {
     delay: 2500,
     disableOnInteraction: true,
+    pauseOnMouseEnter: true,
   },
 });
