@@ -5,7 +5,7 @@ new Swiper('.swiper-collection', {
   watchOverflow: true,
   autoplay: {
     delay: 2000,
-    disableOnInteraction: true,
+    disableOnInteraction: false,
     pauseOnMouseEnter: true,
   },
   loop: true,
