@@ -6,10 +6,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const mobilMenu = document.getElementById('mobil-menu');
   let isClickable = true;
 
-  function noScrol() {
-    document.body.classList.toggle('no-scroll');
-  }
-
   function stopPropagation(e) {
     e.stopPropagation();
   }
@@ -23,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     burgerIcon.classList.add('is-open');
     menu.classList.add('is-open');
-    noScrol();
+    document.body.classList.add('no-scroll');
   }
 
   function closeMenu() {
@@ -35,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     burgerIcon.classList.remove('is-open');
     menu.classList.remove('is-open');
-    noScrol();
+    document.body.classList.remove('no-scroll');
   }
 
   burgerIcon.addEventListener('click', openMenu);
