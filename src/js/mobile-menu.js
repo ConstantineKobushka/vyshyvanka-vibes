@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         isClickable = false; 
         setTimeout(() => {
             isClickable = true; 
-        }, 500); // 
+        }, 500); 
 
         burgerIcon.classList.add('is-open');
         menu.classList.add('is-open');
@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
         setTimeout(() => {
             isClickable = true; 
         }, 500); 
-
-        document.documentElement.style.scrollBehavior = 'auto';
 
         burgerIcon.classList.remove('is-open');
         menu.classList.remove('is-open');
@@ -38,10 +36,20 @@ document.addEventListener('DOMContentLoaded', function () {
     closeButton.addEventListener('click', closeMenu);
     backdrop.addEventListener('click', closeMenu);
 
-    const menuLinks = document.querySelectorAll('.menu-nav-link');
+    const menuLinks = document.querySelectorAll('.menu-nav-link, .header__menu-link');
     menuLinks.forEach(function (link) {
-        link.addEventListener('click', closeMenuOnClick);
-        link.addEventListener('touchstart', closeMenuOnClick);
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            closeMenu();
+            const targetId = link.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
     });
 
     document.addEventListener('click', function(event) {
