@@ -1,7 +1,11 @@
 .order-bg {
   max-width: 375px;
   min-height: 500px;
-  background-image: url(/images/your-order/order-background-desktopmax@1x.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/your-order/order-background-desktopmax@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,7 +14,11 @@
 
 @media screen and (min-resolution: 192dpi) {
   .order-bg {
-    background-image: url(/images/your-order/order-background-desktopmax@2x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/your-order/order-background-desktopmax@2x.jpg);
   }
 }
 
@@ -211,12 +219,20 @@
   }
   .order-bg {
     max-width: 1440px;
-    background-image: url(/images/your-order/order-background-2-desktopmax@1x.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/your-order/order-background-2-desktopmax@1x.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
     .order-bg {
-      background-image: url(/images/your-order/order-background-2-desktopmax@2x.jpg);
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(/images/your-order/order-background-2-desktopmax@2x.jpg);
     }
   }
 
