@@ -55,6 +55,7 @@
   border-radius: 4px;
   overflow: hidden;
 }
+
 @media only screen and (min-width: 768px) {
   .hero {
     padding: 100px 0 50px;
@@ -101,6 +102,7 @@
     }
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .hero {
     padding: 100px 0 75px 0;
@@ -124,6 +126,7 @@
     order: -1;
   }
 }
+
 @media only screen and (min-width: 1440px) {
   .hero-main {
     margin-top: 66px;

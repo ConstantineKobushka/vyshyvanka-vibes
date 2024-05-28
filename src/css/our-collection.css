@@ -4,7 +4,6 @@
   background-size: 199px 177px;
   background-position: top 338px left;
 }
-
 .title-our-collection {
   font-weight: 500;
   font-size: 32px;
@@ -14,23 +13,19 @@
   text-align: center;
   margin-bottom: 40px;
 }
-
 .list-cards-collection {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
-
 .item-cards-collection {
   position: relative;
   transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .list-cards-collection .item-cards-collection:hover,
 .list-cards-collection .item-cards-collection:focus {
   transform: scale(0.95);
 }
-
 .container-image-cards-collection {
   display: flex;
   justify-content: center;
@@ -38,7 +33,6 @@
   margin-bottom: 18px;
   border-radius: 4px;
 }
-
 .link-item-cards-collection {
   position: absolute;
   top: 0;
@@ -46,7 +40,6 @@
   width: 100%;
   height: 100%;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -59,7 +52,6 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .title-cards-collection {
   font-weight: 500;
   font-size: 14px;
@@ -72,7 +64,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .description-cards-collection {
   font-size: 14px;
   line-height: 1;
@@ -93,27 +84,22 @@
     background-size: 338px 300px;
     background-position: top 271px left;
   }
-
   .title-our-collection {
     font-size: 44px;
     line-height: 1.45;
   }
-
   .list-cards-collection {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 20px;
   }
-
   .item-cards-collection {
     max-width: 342px;
   }
-
   .title-cards-collection {
     font-size: 18px;
   }
-
   .description-cards-collection {
     font-size: 18px;
   }
@@ -130,21 +116,17 @@
   .container-collection {
     display: none;
   }
-
   .collection {
     background-position: top 296px left;
   }
-
   .item-swiper-collection {
     position: relative;
     transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
   .list-swiper-collection .item-swiper-collection:hover,
   .list-swiper-collection .item-swiper-collection:focus {
     transform: scale(0.95);
   }
-
   .item-swiper-collection:not(:last-child) {
     margin-bottom: 40px;
   }
@@ -161,7 +143,6 @@
   .collection {
     background-image: none;
   }
-
   .container-swiper-collection {
     background-image: url(../images/background/yellow-ornament@1x.png);
     background-repeat: no-repeat;
