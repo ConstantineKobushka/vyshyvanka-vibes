@@ -1,3 +1,6 @@
+.testimonials {
+  padding-bottom: 80px;
+}
 .section-testimonials__tittle {
     color: #FCF9F9;
     font-size: 32px;
@@ -68,7 +71,9 @@
     }
   }
 @media (min-width: 768px) {
-    
+    .testimonials {
+  padding-bottom: 100px;
+}
   .section-testimonials__tittle {
     font-size: 44px;
     line-height: 64px; /* 145.455% */
@@ -93,6 +98,9 @@
   
 }
 @media (min-width: 1280px) { 
+  .testimonials {
+  padding-bottom: 150px;
+}
     .testimonials__list-item {
         height: 268px;
     }
