@@ -13,10 +13,11 @@
 
         <form class="order-form">
           <input class="order-input" type="text" name="user-name" placeholder="Enter your full name" required
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']">
-          <input class="order-input" type="email" name="user-email" placeholder="Enter your email" required>
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ'-]{2,20}">
+          <input class="order-input" type="email" name="user-email" placeholder="Enter your email" required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
           <textarea class="order-comment" name="user-comment" placeholder="Comments"></textarea>
-          <button class="order-send-btn" type="submit">
+          <button class="order-send-btn" type="submit" aria-label="send">
             Send
             <svg class="order-btn-icon" width="26" height="26">
               <use href="/images/icons/icons.svg#arrow-icon"></use>
