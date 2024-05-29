@@ -20,7 +20,7 @@
 }
 .item-cards-collection {
   position: relative;
-  transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-cards-collection .item-cards-collection:hover,
 .list-cards-collection .item-cards-collection:focus {
@@ -39,18 +39,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 .title-cards-collection {
   font-weight: 500;
@@ -121,7 +109,7 @@
   }
   .item-swiper-collection {
     position: relative;
-    transition: transform 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .list-swiper-collection .item-swiper-collection:hover,
   .list-swiper-collection .item-swiper-collection:focus {
