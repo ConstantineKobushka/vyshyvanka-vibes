@@ -3,11 +3,11 @@ new Swiper('.swiper-collection', {
   slidesPerView: 3,
   slidesPerGroup: 1,
   watchOverflow: true,
-  // autoplay: {
-  //   delay: 2000,
-  //   disableOnInteraction: false,
-  //   pauseOnMouseEnter: true,
-  // },
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   loop: true,
   speed: 1000,
   mousewheel: false,
