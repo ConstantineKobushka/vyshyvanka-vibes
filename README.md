@@ -1,3 +1,50 @@
-# Vyshyvanka Vibes
+# Vyshyvanka Vibes – A Touch of Ukrainian Culture in Every Stitch 🧵🇺🇦👕
 
-Цей проект було створено за допомогою Vite.
+🔗 **Live demo:**
+[https://constantinekobushka.github.io/vyshyvanka-vibes](https://constantinekobushka.github.io/vyshyvanka-vibes)
+
+## 🔎 Project Overview
+
+**Vyshyvanka Vibes** is a modern one-page website (_landing page_) built with a
+_mobile-first_ approach and responsive design for **320px**, **768px**, and
+**1440px** screen widths.
+
+🪡 The site includes a user-friendly mobile menu with smooth anchor link
+scrolling 🔗 and a functional product order form — **"Your Order"** 📋.
+
+🧶 With this website, you can easily order a handmade embroidered Ukrainian
+shirt. Browse our large gallery of authentic products 👕🖼️. Many happy customers
+have already placed orders and left ⭐️ reviews.
+
+Built for those who appreciate **quality**, **craftsmanship**, and **cultural
+heritage**.
+
+---
+
+## 🌟 Key Features
+
+- 📱 Responsive mobile menu
+- 📨 Quick product order form
+- ⚙️ "Order Now" button
+- 🎞️ Image slider powered by Swiper.js
+
+---
+
+## 🧰 Tech Stack
+
+### 🔨 Frontend
+
+- **HTML5** – semantic and structured markup
+- **CSS3** – styling and responsive layout
+- **JavaScript** – interactive logic and event handling
+- **Swiper.js** – gallery and product slider
+
+---
+
+## 🚀 Installation & Launch
+
+### 📦 Clone the repository:
+
+```bash
+git clone https://github.com/ConstantineKobushka/vyshyvanka-vibes
+```
