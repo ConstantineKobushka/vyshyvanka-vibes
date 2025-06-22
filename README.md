@@ -5,9 +5,9 @@
 
 ## 🔎 Project Overview
 
-**Vyshyvanka Vibes** is a modern one-page website (_landing page_) built with a
-_mobile-first_ approach and responsive design for **320px**, **768px**, and
-**1440px** screen widths.
+Vyshyvanka Vibes is a modern one-page website (landing page), created by a team
+of talented developers in a mobile-first style, with responsive design for
+screen widths of 320px, 768px, and 1440px.
 
 🪡 The site includes a user-friendly mobile menu with smooth anchor link
 scrolling 🔗 and a functional product order form — **"Your Order"** 📋.
