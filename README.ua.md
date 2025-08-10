@@ -3,6 +3,8 @@
 🔗 **Демо:**
 [https://constantinekobushka.github.io/vyshyvanka-vibes](https://constantinekobushka.github.io/vyshyvanka-vibes)
 
+![Vyshyvanka Vibes Preview](preview.png)
+
 ## 🔎 Опис проєкту
 
 **Vyshyvanka Vibes** — сучасний односторінковий сайт (_лендінг_), **створений

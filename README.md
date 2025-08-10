@@ -3,7 +3,9 @@
 🔗 **Live demo:**
 [https://constantinekobushka.github.io/vyshyvanka-vibes](https://constantinekobushka.github.io/vyshyvanka-vibes)
 
-## 🔎 Project Overview
+![Vyshyvanka Vibes Preview](preview.png)
+
+## 🔎 Project Description
 
 Vyshyvanka Vibes is a modern one-page website (landing page), created by a team
 of talented developers in a mobile-first style, with responsive design for
