@@ -48,4 +48,7 @@
 
 ```bash
 git clone https://github.com/ConstantineKobushka/vyshyvanka-vibes
+cd vyshyvanka-vibes
+npm install
+npm run dev
 ```
